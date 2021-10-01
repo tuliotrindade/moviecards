@@ -10,7 +10,7 @@ import './App.css'
 
 function App() {
   return (
-    <BrowserRouter basename={ process.env.PUBLIC_URL }>
+    <BrowserRouter>
       <div className="barraTitulo">
         <h1 className="titulo">Movie Card Library CRUD</h1>
         <Link to="/movies/new">ADICIONAR CARTÃO</Link>
