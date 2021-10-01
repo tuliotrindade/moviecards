@@ -3,3 +3,28 @@ body {
   box-sizing: border-box;
 }
 
+.lista{
+  margin-top: 10%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.cards{
+  display: inline-flex;
+  width: 35%;
+  margin: 0%;
+  text-align: center;
+}
+
+.img{
+  width: 100%;
+}
+
+.barraTitulo{
+  width: 100%;
+  position: relative;
+  margin-top: 0%;
+  text-align: center;
+  background-color:white;
+}
