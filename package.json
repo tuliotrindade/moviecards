@@ -1,8 +1,8 @@
 {
-  "homepage": "https://tuliotrindade.github.io/moviecards",
   "name": "sd-0x-block14-project-movie-card-library-crud",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://github.com/tuliotrindade/moviecards",
   "dependencies": {
     "acorn": "7.1.1",
     "minimist": "1.2.3",
@@ -20,7 +20,7 @@
     "eject": "react-scripts eject",
     "lint:styles": "npx stylelint '**/*.css'",
     "lint": "eslint --no-inline-config --no-error-on-unmatched-pattern -c .eslintrc.json . --ext .js,.jsx",
-    "deploy": "npm run build && ./node_modules/.bin/gh-pages -d build"
+    "publicar": "npm run build && ./node_modules/.bin/gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"

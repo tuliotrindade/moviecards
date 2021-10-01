@@ -6,7 +6,7 @@ import MovieDetails from './pages/MovieDetails';
 import NewMovie from './pages/NewMovie';
 import EditMovie from './pages/EditMovie';
 import NotFound from './pages/NotFound';
-import './App.css'
+import './App.css';
 
 function App() {
   return (
@@ -16,7 +16,7 @@ function App() {
         <Link to="/movies/new">ADICIONAR CARTÃO</Link>
       </div>
       <Switch>
-        <Route exact path="/moviecards" component={ MovieList } />
+        <Route exact path="/" component={ MovieList } />
         <Route path="/movies/new" component={ NewMovie } />
         <Route
           exact
