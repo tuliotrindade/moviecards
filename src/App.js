@@ -16,7 +16,7 @@ function App() {
         <Link to="/movies/new">ADICIONAR CARTÃO</Link>
       </div>
       <Switch>
-        <Route exact path="/" component={ MovieList } />
+        <Route exact path="/moviecards" component={ MovieList } />
         <Route path="/movies/new" component={ NewMovie } />
         <Route
           exact
